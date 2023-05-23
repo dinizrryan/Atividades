@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+
+    background-image: url("fundoespaco.gif");
+
+    margin: 0px 0px 0px 0px;
+}
+.conteudo-padrao {
+    background-color: rgb(10, 10, 10);
+
+    border-style: solid;
+    border-color: rgb(10, 10, 10);
+    border-width: 10px 0px; 
+}
+#intro-pag {
+    background-color: rgb(10, 10, 10);
+
+    border-style: solid;
+    border-color: rgb(10, 10, 10);
+    border-width: 10px 0px; 
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+
+    text-align: justify;
+    color: #E0E0E0;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1 {
+    font-family: titleFont;
+
+    text-align: center;
+    color: #4C1D80;
+}
+h2 {
+    font-family: titleFont;
+
+    color: #4C1D80;
+
+    padding-left: 25px;
+    padding-right: 50px;
+}
+nav {
+    font-family: newFont;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+footer {
+    font-family: newFont;
+
+    color: #E0E0E0;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+    background-color: rgb(10, 10, 10);
+
+    border-style: solid;
+    border-color: rgb(10, 10, 10);
+    border-width: 10px 0px; 
+}
+a:link {
+    color: #E0E0E0;
+}
+a:visited {
+    color: #4C1D80;
+}
+a:hover {
+    color: #4C1D80;
+}
+a:active {
+    color: #4C1D80;
+}
+img {
+    border-radius: 12px;
+    width: 400px;
+    padding-left: 30%;
+}
